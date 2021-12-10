@@ -1,5 +1,5 @@
 export const TOGGLE_DARKTHEME = "TOGGLE_DARKTHEME";
 
-export const actions = {
+export const toggleDarkTheme = () => ({
     type: TOGGLE_DARKTHEME,
-};
+});
